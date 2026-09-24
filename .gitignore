@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+venv/
+.venv/
+
+# Model checkpoints (large files — don't commit these)
+*.pt
+*.pth
+*.ckpt
+
+# Data files (often too large for git)
+data/raw/
+*.csv
+*.nc        # NetCDF files (common in weather/climate work)
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
